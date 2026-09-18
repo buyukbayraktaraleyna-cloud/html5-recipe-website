@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Recipes - Contact Us</title>
+</head>
+<body>
+
+    <!-- Header: Consistent navigation menu -->
+    <header>
+        <h1>Delicious Recipes Kitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Recipes & Nutrition</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Submit a Recipe or Message</h2>
+        <p>Have a question, feedback, or a unique family recipe to share? Fill out the form below!</p>
+
+        <!-- Form Requirement: form, fieldset, legend, labels, inputs, textarea, select, submit -->
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contact & Recipe Submission Details</legend>
+
+                <!-- Text input with label -->
+                <p>
+                    <label for="user-name">Your Full Name:</label><br>
+                    <input type="text" id="user-name" name="user_name" placeholder="Jane Doe" required>
+                </p>
+
+                <!-- Email input with label -->
+                <p>
+                    <label for="user-email">Email Address:</label><br>
+                    <input type="email" id="user-email" name="user_email" placeholder="jane@example.com" required>
+                </p>
+
+                <!-- Date input with label -->
+                <p>
+                    <label for="visit-date">Date of Cooking / Visit:</label><br>
+                    <input type="date" id="visit-date" name="visit_date">
+                </p>
+
+                <!-- Select with at least 3 options -->
+                <p>
+                    <label for="recipe-type">Recipe Category:</label><br>
+                    <select id="recipe-type" name="recipe_type">
+                        <option value="main">Main Course</option>
+                        <option value="dessert">Dessert & Baking</option>
+                        <option value="soup">Soup & Appetizer</option>
+                        <option value="salad">Salad & Healthy Bowl</option>
+                    </select>
+                </p>
+
+                <!-- Textarea with label -->
+                <p>
+                    <label for="user-message">Your Message or Recipe Instructions:</label><br>
+                    <textarea id="user-message" name="user_message" rows="6" cols="45" placeholder="Write your message or recipe steps here..."></textarea>
+                </p>
+
+                <!-- Submit Button -->
+                <p>
+                    <button type="submit">Submit Form</button>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Delicious Recipes Kitchen. All rights reserved. | Created by: Aleyna Buyukbayraktar</p>
+    </footer>
+
+</body>
+</html>
